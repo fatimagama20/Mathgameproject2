@@ -15,11 +15,14 @@
     top: 15px;
 }
 #question{
-    background: honeydew;
-    width: 450px;
-    height: 150px;
-    margin:30px auto 10px auto;
+    width:450px;
+    height:150px;
+    margin:50px auto 10px auto;
+    background-color: honeydew;
     box-shadow:0px 4px rgb(241, 233, 223);
+    font-size: 100px;
+    text-align: center;
+    font-family:cursive,sans-serif;
 }
 #instruction{
     width:450px;
@@ -42,21 +45,19 @@
     box-shadow: 0px 4px rgba(0,0,0,0.2);
 }
 
-#startReset{
-    /*position:relative;
+#startReset {
     text-align: center;
-    bottom: -250px;*/
     position: absolute;
     bottom: 8px;
     right: 250px;
     width: 90px;
     background-color: rgb(207, 193, 193);
     font-size: 18px;
-
+    border-radius:2px;
+    cursor:pointer;
+    box-shadow: 0px 4px rgba(0,0,0,0.2);
 }
-
-
-#timeremaining{
+#timeremaining {
     position: absolute;
     bottom: 8px;
     right: 16px;  
