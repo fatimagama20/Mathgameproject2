@@ -17,7 +17,7 @@
 #question{
     width:450px;
     height:150px;
-    margin:50px auto 10px auto;
+    margin:27px auto 10px auto;
     background-color: honeydew;
     box-shadow:0px 4px rgb(241, 233, 223);
     font-size: 100px;
@@ -48,7 +48,7 @@
 #startReset {
     text-align: center;
     position: absolute;
-    bottom: 8px;
+    bottom: 11px;
     right: 250px;
     width: 90px;
     background-color: rgb(207, 193, 193);
