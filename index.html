@@ -4,6 +4,7 @@
   <title>Math Game</title>
   <meta charset="ütf-8">
   <meta name="viewport" content="width=device-width" initial-scale="1" user-scalable="yes">
+  <script src="https://kit.fontawesome.com/e6b0f37796.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -15,7 +16,6 @@
   <div id="question"></div>
   <div id="instruction"> Click on the answser below</div>
   <div id="choices">
-    <!--<div class="box" id="box1"></div>-->
     <div class="box" id="box1"></div>
     <div class="box" id="box2"></div>
     <div class="box" id="box3"></div>
@@ -24,6 +24,11 @@
   <div id="startReset">Start Game</div>
   <div id="timeremaining">Time remaining:<span id="remainingsecs">30</span>secs</div>
   <div id="gameover">
+  </div>
+  
+  <div class="popup" id="help" onclick="myFunction()"><i class="fa-regular fa-circle-question"></i>
+    <span class="popuptext" id="myPopup">How to play<br><br>Click on the correct answer from the provided answers. Each time a correct answer is clicked score will be incremented by 1. If wrong answer is clicked, there are 30 seconds to choose an answer. Game will be over if time interval reaches 30 seconds</span>
+   <!-- <span id="help"><i class="fa-regular fa-circle-question"></i></span>-->
   </div>
 </div>
 <script src="assets/js/script.js"></script>

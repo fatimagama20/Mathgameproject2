@@ -130,16 +130,58 @@ html{
   -moz-box-shadow:0px 4px rgba(0,0,0,0.2);
   display: none;
 }
-#gameover{
-  height:200px;
-  width:500px;
-  text-align: center;
-  color:white;
-  position: absolute;
-  top:100px;
-  left:40px;
-  font-size: 2.5em;
-  background: linear-gradient(#f3ca6b,#fe706c);
-  z-index:2;
-  display:none;
+/*------------------------------pop up alignment------------------*/
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
 }
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 524px;
+  height: 224px;
+  background-color: #91a5cd;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 97px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 83%;
+  left: 271%;
+  margin-left: -19px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+

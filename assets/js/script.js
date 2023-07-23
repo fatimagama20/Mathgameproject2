@@ -2,11 +2,10 @@ let playing = false;let timeremaining;
 let product; let product1; let correctans; let wronganswers;
 document.getElementById('startReset').onclick = function(){
  if (playing == true){
-  location.reload()
- } else{
-  playing = true;
-  //hide("gameover");
-  show("timeremaining");
+    location.reload()
+ }else{
+    playing = true;
+    show("timeremaining");
   document.getElementById('startReset').innerHTML = "Reset Game";
   score=0;
   document.getElementById('scorevalue').innerHTML= score;
@@ -34,11 +33,11 @@ function checkAnswer(){
   if(playing == true){
     if(this.innerHTML==product){
       alert("Corerct answer")
-      setTimeout(function(){
+     /* setTimeout(function(){
        hide("correct")
       hide("wrong") 
-      },1000)
-      score++
+      },1000)*/
+      incrementScore();
       document.getElementById('scorevalue').innerHTML= score
       startGame();
       calculateCorrectAnswer();
@@ -47,10 +46,10 @@ function checkAnswer(){
     else{
       //if the wrong answer is clicked 
       alert("Wrong answer")
-      setTimeout(function(){
+     /* setTimeout(function(){
        hide("correct")
       hide("wrong") 
-      },1000)
+      },1000)*/
       startGame();
       calculateCorrectAnswer();
       generateWrongAnswers();
@@ -104,5 +103,7 @@ function settimeinterval(){
   function hide(id){
     document.getElementById(id).style.display="none"
   }
-
- 
+  function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+  }
