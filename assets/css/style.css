@@ -133,16 +133,17 @@ html{
 /*------------------------------pop up alignment------------------*/
 /* Popup container */
 .popup {
-  position: relative;
+  position: absolute;
   display: inline-block;
   cursor: pointer;
+  margin-top:-20px;
 }
 
 /* The actual popup (appears on top) */
 .popup .popuptext {
   visibility: hidden;
-  width: 524px;
-  height: 224px;
+  width: 540px;
+  height: 202px;
   background-color: #91a5cd;
   color: #fff;
   text-align: center;
@@ -151,7 +152,7 @@ html{
   position: absolute;
   z-index: 1;
   bottom: 83%;
-  left: 271%;
+  left: 171%;
   margin-left: -19px;
 }
 

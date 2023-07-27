@@ -18,7 +18,22 @@ document.getElementById('startReset').onclick = function(){
 }
 for(let i=1;i<5;i++){
   document.getElementById("box"+i).onclick = function(){
-    checkAnswer();
+    if(playing == true){
+      if(this.innerHTML==product){
+        alert("Corerct answer")
+        incrementScore();
+        document.getElementById('scorevalue').innerHTML= score
+        startGame();
+        calculateCorrectAnswer();
+        generateWrongAnswers();
+      }
+      else{ 
+        alert("Wrong answer")
+        startGame();
+        calculateCorrectAnswer();
+        generateWrongAnswers();
+      }
+   }
   }
 }
 function startGame(){
@@ -29,33 +44,6 @@ product = num1 * num2;
 document.getElementById("question").innerHTML = num1 + '&times;' + num2;
 }
 
-function checkAnswer(){
-  if(playing == true){
-    if(this.innerHTML==product){
-      alert("Corerct answer")
-     /* setTimeout(function(){
-       hide("correct")
-      hide("wrong") 
-      },1000)*/
-      incrementScore();
-      document.getElementById('scorevalue').innerHTML= score
-      startGame();
-      calculateCorrectAnswer();
-      generateWrongAnswers();
-    }
-    else{
-      //if the wrong answer is clicked 
-      alert("Wrong answer")
-     /* setTimeout(function(){
-       hide("correct")
-      hide("wrong") 
-      },1000)*/
-      startGame();
-      calculateCorrectAnswer();
-      generateWrongAnswers();
-    }
- }
-}
 function calculateCorrectAnswer(){
   correctans = Math.round(Math.random()*2) + 1;
   document.getElementById('box'+correctans).innerHTML = product;
