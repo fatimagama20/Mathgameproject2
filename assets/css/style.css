@@ -130,6 +130,7 @@ html{
   -moz-box-shadow:0px 4px rgba(0,0,0,0.2);
   display: none;
 }
+
 /*------------------------------pop up alignment------------------*/
 /* Popup container */
 .popup {
@@ -146,7 +147,7 @@ html{
   height: 202px;
   background-color: #91a5cd;
   color: #fff;
-  text-align: center;
+  text-align: left;
   border-radius: 6px;
   padding: 97px 0;
   position: absolute;
@@ -185,4 +186,3 @@ html{
   from {opacity: 0;}
   to {opacity:1 ;}
 }
-

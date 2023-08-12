@@ -3,7 +3,7 @@
 
 [Click here to launch a game](https://fatimagama20.github.io/Mathgameproject2/)
 
-This website is designed to give an overview of the tutor services online and some guidance or help which cannot be provided by parents and their school teachers
+This game is designed to generate random mulitplication questions and answers  which can be used to improve the times table and help make math enjoyable
 
 ![](?raw=true)
 

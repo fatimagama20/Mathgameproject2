@@ -1,5 +1,5 @@
-let playing = false;let timeremaining;
-let product; let product1; let correctans; let wronganswers;
+let playing = false;let timeremaining=0;
+let product=0; let product1=0; let correctans=0; let wronganswers=[];
 document.getElementById('startReset').onclick = function(){
  if (playing == true){
     location.reload()
@@ -20,15 +20,15 @@ for(let i=1;i<5;i++){
   document.getElementById("box"+i).onclick = function(){
     if(playing == true){
       if(this.innerHTML==product){
-        alert("Corerct answer")
-        incrementScore();
+        alert("WOW! You answered it Correct")
+        score++;
         document.getElementById('scorevalue').innerHTML= score
         startGame();
         calculateCorrectAnswer();
         generateWrongAnswers();
       }
       else{ 
-        alert("Wrong answer")
+        alert("Aww! Wrong answer, Please try again.")
         startGame();
         calculateCorrectAnswer();
         generateWrongAnswers();
@@ -49,10 +49,10 @@ function calculateCorrectAnswer(){
   document.getElementById('box'+correctans).innerHTML = product;
 }
 
-function incrementScore(){
+/*function incrementScore(){
   let oldScore = parseInt(document.getElementById("score").innerText);
   document.getElementById("score").innerText = ++oldScore;
-}
+}*/
 function generateWrongAnswers(){
 wronganswers = [product];
 for (let i=1;i<5;i++){
@@ -75,6 +75,7 @@ function settimeinterval(){
       document.getElementById('remainingsecs').innerHTML=timeremaining;
       }else{
         stoptimeinterval();
+        //alert("Game Over! Your Final score is " + score)
         document.getElementById('startReset').innerHTML = "Start Game"
         playing = false;
       }
@@ -95,3 +96,12 @@ function settimeinterval(){
     var popup = document.getElementById("myPopup");
     popup.classList.toggle("show");
   }
+  /*function startGame(){
+    //create tow random numbers between 1 and 10
+    let num1 = Math.floor(Math.random() * 10) + 1;
+    let num2 = Math.floor(Math.random() * 10) + 1;
+    product = num1 * num2;
+    document.getElementById("question").innerHTML = num1 + '&times;' + num2;
+}
+ module.exports = { startGame };
+ */
