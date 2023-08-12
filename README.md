@@ -22,7 +22,7 @@ This game is designed to generate random mulitplication questions and answers  w
 * ## Design
   * ### Colour Scheme
     * Background colour - #9dd2ea
-    
+
 
   * ### Typography
     * Default fonts is used throughtout the website. I haven't use google fonts
@@ -30,10 +30,10 @@ This game is designed to generate random mulitplication questions and answers  w
     * On the Homepage, I have used a professionally presented image to suit the purpose of the website, which is providing a good impression for parents to visit the website.
   
 * ## Wireframes
-  * ### Home Page Wireframe - [View](https://github.com/fatimagama20/TutorMilestoneProject1/blob/main/assets/image/hompage.jpg)
-  * ### About Page Wireframe - [View](https://github.com/fatimagama20/TutorMilestoneProject1/blob/main/assets/image/aboutpage.jpg)
+  * ### Page Load Wireframe - [View](https://github.com/fatimagama20/TutorMilestoneProject1/blob/main/assets/image/hompage.jpg)
+  * ### Start Game Wireframe - [View](https://github.com/fatimagama20/TutorMilestoneProject1/blob/main/assets/image/aboutpage.jpg)
   * ### Contact Page Wireframe - [View](https://github.com/fatimagama20/TutorMilestoneProject1/blob/main/assets/image/contactform.jpg)
-  * ### Mobile Wireframe - [View](https://github.com/fatimagama20/TutorMilestoneProject1/blob/main/assets/image/mobileview.jpg)
+
 
 # Features
 
@@ -51,7 +51,7 @@ This game is designed to generate random mulitplication questions and answers  w
   1. [Bootstrap5:](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
      * Bootstrap was used to assist with the responsiveness and styling of the website.
   2. [Font Awesome:](https://fontawesome.com/)
-     *  Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+     *  Font Awesome is used to add help icon
   3. [Hover:css:](https://ianlunn.github.io/Hover/)
      * Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
   4. [jQuery:](https://jquery.com/)
