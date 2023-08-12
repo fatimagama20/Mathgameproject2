@@ -49,10 +49,6 @@ function calculateCorrectAnswer(){
   document.getElementById('box'+correctans).innerHTML = product;
 }
 
-/*function incrementScore(){
-  let oldScore = parseInt(document.getElementById("score").innerText);
-  document.getElementById("score").innerText = ++oldScore;
-}*/
 function generateWrongAnswers(){
 wronganswers = [product];
 for (let i=1;i<5;i++){
