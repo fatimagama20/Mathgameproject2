@@ -26,6 +26,7 @@ html{
   left:500px;
   box-shadow:0px 4px 0px 0px #9da853;
 }
+/*
 #correct{
   background-color: green;
   color:white;
@@ -41,7 +42,7 @@ html{
   position:absolute;
   left:260px;
   display:none;
-}
+}*/
 #question{
   width:450px;
   height:150px;

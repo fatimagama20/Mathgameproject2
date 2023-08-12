@@ -11,8 +11,8 @@ This game is designed to generate random mulitplication questions and answers  w
 * ## User stories
   * ### First time visitors goal
     * As a first time visitor, I want to easily understand the main purpose of the game and learn more about the feature of the game 
-    * As a first time visitor, I want to look for reviews to understand what the users think about them and if they are trustworthy. I also want to locate their social media links
-    * As a first time visitor, I want to know about the subjects they teach and the knowledge and the education of the tutor
+    * As a first time visitor, I want to look for help page to understand how to play a game
+    * As a first time visitor, I want to improve math skill
   * ### Returning Visitor Goals
     * As a Returning Visitor, I want to find information about sujects and to book a lesson, some assignments.
     * As a returning Visitor, I want to check the reviews
@@ -21,7 +21,8 @@ This game is designed to generate random mulitplication questions and answers  w
     * As a Frequent User, I wan to see if there are more assignment challenges are added
 * ## Design
   * ### Colour Scheme
-    * The two main colours used are Black, Gray and white.
+    * Background colour - #9dd2ea
+    
 
   * ### Typography
     * Default fonts is used throughtout the website. I haven't use google fonts
