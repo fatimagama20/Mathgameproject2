@@ -3,7 +3,7 @@
 
 [Click here to launch a game](https://fatimagama20.github.io/Mathgameproject2/)
 
-This game is designed to generate random mulitplication questions and answers  which can be used to improve the times table and help make math enjoyable
+This game is designed to generate random mulitplication questions and answers  which can be used to improve the times table and help make math enjoyable specially children can have fun and improve their math skills
 
 ![](?raw=true)
 
@@ -12,16 +12,21 @@ This game is designed to generate random mulitplication questions and answers  w
   * ### First time visitors goal
     * As a first time visitor, I want to easily understand the main purpose of the game and learn more about the feature of the game 
     * As a first time visitor, I want to look for help page to understand how to play a game
-    * As a first time visitor, I want to improve math skill
-  * ### Returning Visitor Goals
-    * As a Returning Visitor, I want to find information about sujects and to book a lesson, some assignments.
-    * As a returning Visitor, I want to check the reviews
+    * Everytime a correct answer is clicked score is incremented by 1
+    * User can reset a game at any point and a timer is be reset to zero
+    * User can play the game until 30 seconds
+    * As a parent, can insist a child to play the game and improve the multiplication skills.
+    * user can see the time remaining until the game is over
   * ### Frequent User Goals
-    * As a frequent User, I want to see if any offers and added
-    * As a Frequent User, I wan to see if there are more assignment challenges are added
+    * As a frequent User, I want to see if more questions are added
+    * As a Frequent User, I want to see if the developer can be contacted
+
 * ## Design
   * ### Colour Scheme
-    * Background colour - #9dd2ea
+    * Background colour - #9dd2ea, #f1ff92
+    * score colour - #888e5f
+    * Time remaining colour - rgba(27, 235, 138, 0.78)
+    * questions colour - #4c9bf5
 
 
   * ### Typography
